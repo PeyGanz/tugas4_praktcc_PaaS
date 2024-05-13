@@ -5,4 +5,4 @@ FROM php:7.4-apache
 COPY index.php /var/www/html/
 
 # Expose port yang digunakan oleh server web Apache (biasanya 80)
-EXPOSE 80
+EXPOSE 8080

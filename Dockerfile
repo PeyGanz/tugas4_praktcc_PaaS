@@ -1,8 +1,13 @@
-# Gunakan image PHP Apache
 FROM php:7.4-apache
 
-# Salin file index.php ke dalam direktori web server Apache
-COPY index.php /var/www/html/
+# Set the working directory in the container
+WORKDIR /var/www/html
 
-# Expose port yang digunakan oleh server web Apache (biasanya 80)
+# Copy the PHP application files to the container
+COPY . /var/www/html/
+
+# Expose port 8080 to the outside world
 EXPOSE 8080
+
+# CMD to run the PHP application
+CMD ["php", "-S", "0.0.0.0:8080", "-t", "/var/www/html"]

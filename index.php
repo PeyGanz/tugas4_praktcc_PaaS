@@ -61,6 +61,7 @@
             color: #007BFF;
             text-decoration: none;
             word-wrap: break-word;
+            overflow-x: auto;
         }
         .selebgram a:hover {
             text-decoration: underline;

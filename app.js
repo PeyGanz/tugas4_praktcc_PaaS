@@ -28,10 +28,10 @@ const selebgramIndo = [
       "foto": "https://i.pinimg.com/564x/36/1d/cf/361dcf27ec2fb7c0981f5e0e04bb1ae8.jpg"
     },
     {
-      "nama": "Ratna Icikiwir",
-      "asal": "Pluto",
-      "instagram": "https://www.instagram.com/rtnasr/",
-      "foto": "https://i.pinimg.com/736x/1a/5f/c7/1a5fc7d529bf112f0a494085fc6b547e.jpg" 
+      "nama": "Anya Geraldine",
+      "asal": "Jakarta",
+      "instagram": "https://www.instagram.com/anyageraldine/",
+      "foto": "https://i.pinimg.com/564x/48/b7/62/48b7623fc9a24837138507c4d193b8a2.jpg" 
     }
 ];
 

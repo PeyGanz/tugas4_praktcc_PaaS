@@ -61,12 +61,14 @@
             color: purple;
             text-decoration: none;
             word-wrap: break-word;
-            overflow-x: auto;
-            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: inline-block;
+            max-width: 50%;
         }
         .selebgram a:hover {
             text-decoration: underline;
-            color: #007BFF;
+            color: blue;
         }
         h1 {
             color: rgba(229, 100, 221, 0.8); /* Warna yang lebih gelap */
@@ -105,7 +107,8 @@
                 echo '<div class="selebgram">';
                 echo '<h2>' . htmlspecialchars($selebgram['nama']) . '</h2>';
                 echo '<p>Asal: ' . htmlspecialchars($selebgram['asal']) . '</p>';
-                echo '<p>Instagram: <a href="' . htmlspecialchars($selebgram['instagram']) . '" target="_blank">' . htmlspecialchars($selebgram['instagram']) . '</a></p>';
+                echo '<p>IG : </p>';
+                echo '<a href="' . htmlspecialchars($selebgram['instagram']) . '" target="_blank">' . htmlspecialchars($selebgram['instagram']) . '</a>';
                 echo '<img src="' . htmlspecialchars($selebgram['foto']) . '" alt="Foto ' . htmlspecialchars($selebgram['nama']) . '">';
                 echo '</div>';
             }

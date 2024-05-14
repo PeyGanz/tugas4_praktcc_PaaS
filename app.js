@@ -7,25 +7,25 @@ const selebgramIndo = [
       "nama": "Nicole Parham Adelaide",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/nicoleparham_",
-      "foto": "https://www.instagram.com/p/Cxsalyjv9lM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      "foto": "https://www.instagram.com/p/Cxsalyjv9lM/media/?size=l"
     },
     {
       "nama": "Pevita Pearce",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/pevpearce/",
-      "foto": "https://www.instagram.com/p/CxUXOuJyuW6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      "foto": "https://www.instagram.com/p/CxUXOuJyuW6/media/?size=l"
     },
     {
       "nama": "Tatjana Saphira",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/tatjanasaphira/",
-      "foto": "https://example.com/tatjana_saphira.jpg"
+      "foto": "https://www.instagram.com/p/CsqV0JoyfQD/media/?size=l"
     },
     {
       "nama": "Jennifer Coppen",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/jennifercoppenreal20/",
-      "foto": "https://www.instagram.com/p/C4u9vWcpRjX/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+      "foto": "https://www.instagram.com/p/C4u9vWcpRjX/media/?size=l"
     },
 ];
 

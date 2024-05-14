@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selebgram Cuantiq Indonesia</title>
+    <title>Selebgram Idaman Indonesia</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.vectorstock.com/i/2000v/61/02/pinup-girl-vector-446102.avif">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,17 +18,16 @@
             padding-bottom: 100px; /* Add padding to avoid content getting cut off at the top */
         }
         .container {
-            width: 100%;
-            min-width: 100px;
+            width: 50%;
             max-width: 800px;
             margin: auto;
             padding: 20px 50px;
             border-radius: 80px;
             box-shadow: 30px 40px 8px rgba(200, 0, 50, 0.3);
             text-align: center;
-            background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.7)), url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+            background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.6)), url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
             background-position: center center;
-            background-size: auto; 
+            background-size: cover; 
         }
         .selebgram {
             border-bottom: 10px solid palevioletred;
@@ -71,6 +71,7 @@
         }
         @media (max-width: 600px) {
             .container {
+                width: 50%;
                 padding: 10px;
                 border-radius: 20px;
             }
@@ -82,7 +83,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Daftar Selebgram Indonesia</h1>
+        <h1>TOP Selebgram Indonesia</h1>
         <?php
         // URL API
         $api_url = 'https://dev-api-q2od2bwu5a-uc.a.run.app/api/selebgram-indo';

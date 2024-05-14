@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 // Data kendaraan mobil sport dalam bentuk array
-const selebgramIndo = [https://www.instagram.com/rtnasr/
+const selebgramIndo = [
     {
       "nama": "Nicole Parham Adelaide",
       "asal": "Jakarta",

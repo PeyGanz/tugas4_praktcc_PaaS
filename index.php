@@ -18,9 +18,9 @@
             padding-bottom: 100px; /* Add padding to avoid content getting cut off at the top */
         }
         .container {
-            width: 80%;
+            width: 100%;
             max-width: 800px;
-            margin: auto;
+            margin: 20px 70px 20px 50px;
             padding: 20px 50px;
             border-radius: 80px;
             box-shadow: 30px 40px 8px rgba(200, 0, 50, 0.3);
@@ -71,7 +71,7 @@
         }
         @media (max-width: 600px) {
             .container {
-                width: 80%;
+                width: 90%;
                 padding: 10px;
                 border-radius: 20px;
             }

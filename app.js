@@ -7,25 +7,25 @@ const selebgramIndo = [
       "nama": "Nicole Parham Adelaide",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/nicoleparham_",
-      "foto": "https://instagram.fjog3-1.fna.fbcdn.net/v/t51.29350-15/382760113_1260525844640797_9145599865539890632_n.jpg?stp=dst-jpg_e35_p1080x1080&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=0r3xa1SS17cQ7kNvgGF-qX-&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AYD7sDWIfX1-E-RmLwAb2348-llUIy436BXakICFk3tBxg&oe=6648E263&_nc_sid=ed990e"
+      "foto": "https://i.pinimg.com/564x/98/9b/e2/989be23653fd2e69ce15276159fa64a8.jpg" 
     },
     {
       "nama": "Pevita Pearce",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/pevpearce/",
-      "foto": "https://instagram.fjog3-1.fna.fbcdn.net/v/t51.29350-15/379665177_1457345235111679_994784699714784981_n.jpg?stp=dst-jpg_e35_p1080x1080&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=BTZpJry9WRoQ7kNvgEzEufx&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AYDIZnXOsOp3BvFSalNAU7dpk75dLyilDzHiRcJxsg2Yfg&oe=6648E06C&_nc_sid=ed990e"
+      "foto": "https://i.pinimg.com/564x/04/8a/38/048a381589d226a5a6d435ef00d203d4.jpg"
     },
     {
       "nama": "Tatjana Saphira",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/tatjanasaphira/",
-      "foto": "https://instagram.fjog3-1.fna.fbcdn.net/v/t51.29350-15/348874014_1011759473143526_2801124414389343535_n.jpg?stp=dst-jpg_e35_p1080x1080&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=9JHYydPOFBsQ7kNvgFgf0-Q&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AYAf8KozAoGMxvJ1nyuXSyRbjFQDGRa-rA9lL6KP32t6Mg&oe=6648E261&_nc_sid=ed990e"
+      "foto": "https://i.pinimg.com/564x/14/a4/96/14a4961a3bf6752fb14a5878d097ba91.jpg"
     },
     {
       "nama": "Jennifer Coppen",
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/jennifercoppenreal20/",
-      "foto": "https://instagram.fjog3-1.fna.fbcdn.net/v/t39.30808-6/432612809_18423902113060813_1910400443810607547_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08&_nc_ht=instagram.fjog3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=dnmGJ8ePWsEQ7kNvgHWONVO&edm=AGenrX8AAAAA&ccb=7-5&oh=00_AYBBrY6xGlgQFbRleWMxCSnbr6Ku5asUUAVJgNecgeZ_Tg&oe=6648EB7E&_nc_sid=ed990e"
+      "foto": "https://i.pinimg.com/564x/36/1d/cf/361dcf27ec2fb7c0981f5e0e04bb1ae8.jpg"
     },
 ];
 

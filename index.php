@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selebgram Indonesia</title>
+    <title>Selebgram Cuantiq Indonesia</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,9 +17,11 @@
             padding-bottom: 100px; /* Add padding to avoid content getting cut off at the top */
         }
         .container {
-            min-width: 500px;
+            width: 100%;
+            min-width: 100px;
+            max-width: 800px;
             margin: auto;
-            padding: 20px 100px;
+            padding: 20px 50px;
             border-radius: 80px;
             box-shadow: 30px 40px 8px rgba(200, 0, 50, 0.3);
             text-align: center;
@@ -66,6 +68,15 @@
             color: rgba(229, 100, 221, 0.8); /* Warna yang lebih gelap */
             margin-bottom: 20px;
             text-shadow: 2px 2px 4px rgba(221, 160, 221, 0.5); /* Efek bayangan teks */
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+                border-radius: 20px;
+            }
+            .selebgram img {
+                max-width: 100px;
+            }
         }
     </style>
 </head>

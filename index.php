@@ -5,24 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selebgram Indonesia</title>
     <style>
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
+        body {
             font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, rgba(221, 160, 221, 0.5) 0%, rgba(255, 255, 255, 1) 100%); /* Gradien putih ke bawah */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; /* Align items to the top */
+            min-height: 100vh;
+            padding-top: 50px;
+            padding-bottom: 100px; /* Add padding to avoid content getting cut off at the top */
+        }
+        .container {
+            min-width: 500px;
+            margin: auto;
+            padding: 20px 100px;
+            border-radius: 80px;
+            box-shadow: 30px 40px 8px rgba(200, 0, 50, 0.3);
+            text-align: center;
+            background-image: linear-gradient(rgba(240, 240, 240, 0.9), rgba(240, 240, 240, 0.7)), url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+            background-position: center center;
+            background-size: auto; 
         }
         .selebgram {
-            border-bottom: 1px solid #ddd;
-            padding: 10px 0;
+            border-bottom: 10px solid palevioletred;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .selebgram img {
-            max-width: 500px;
-            min-width: 100px;
+            max-width: 200px;
             height: auto;
-            display: block;
+            border-radius: 60%;
+            margin-top: 10px;
+            border: 5px solid pink;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 1); 
+            transition: transform 0.5s;
+        }
+        .selebgram img:hover {
+           transform: scale(1.1); /* Efek zoom saat hover */
+           border: 5px solid palevioletred;
         }
         .selebgram h2 {
-            margin: 0;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        .selebgram p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .selebgram a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .selebgram a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: rgba(229, 100, 221, 0.8); /* Warna yang lebih gelap */
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(221, 160, 221, 0.5); /* Efek bayangan teks */
         }
     </style>
 </head>
@@ -46,15 +89,13 @@
                 echo '<div class="selebgram">';
                 echo '<h2>' . htmlspecialchars($selebgram['nama']) . '</h2>';
                 echo '<p>Asal: ' . htmlspecialchars($selebgram['asal']) . '</p>';
-                echo '<p>Instagram: <a href="' . htmlspecialchars($selebgram['instagram']) . '" target="_blank">' . htmlspecialchars($selebgram['instagram']) . '</a></p>';
-                echo '<img src="' . $selebgram['foto'] . '" alt="Foto ' . htmlspecialchars($selebgram['foto']) . '">';
+                echo '<p>Instagram: <a href="' . htmlspecialchars($selebgram['instagram']) . '" target="_blank" style="color: purple;">' . htmlspecialchars($selebgram['instagram']) . '</a></p>';
+                echo '<img src="' . htmlspecialchars($selebgram['foto']) . '" alt="Foto ' . htmlspecialchars($selebgram['nama']) . '">';
                 echo '</div>';
             }
         } else {
             echo '<p>Tidak ada data selebgram yang ditemukan.</p>';
         }
-
-
         ?>
     </div>
 </body>

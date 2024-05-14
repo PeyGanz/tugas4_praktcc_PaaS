@@ -20,7 +20,7 @@
         .container {
             width: 100%;
             max-width: 800px;
-            margin: 20px 70px 20px 50px;
+            margin: 20px 60px 20px 50px;
             padding: 20px 50px;
             border-radius: 80px;
             box-shadow: 30px 40px 8px rgba(200, 0, 50, 0.3);
@@ -60,9 +60,11 @@
         .selebgram a {
             color: #007BFF;
             text-decoration: none;
+            word-wrap: break-word;
         }
         .selebgram a:hover {
             text-decoration: underline;
+            color: #007BFF;
         }
         h1 {
             color: rgba(229, 100, 221, 0.8); /* Warna yang lebih gelap */

@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 // Data kendaraan mobil sport dalam bentuk array
-const selebgramIndo = [
+const selebgramIndo = {
+  "data": [
     {
       "nama": "Nicole Parham Adelaide",
       "asal": "Jakarta",
@@ -33,11 +34,12 @@ const selebgramIndo = [
       "instagram": "https://www.instagram.com/anyageraldine/",
       "foto": "https://i.pinimg.com/564x/48/b7/62/48b7623fc9a24837138507c4d193b8a2.jpg" 
     }
-];
+  ]
+};
 
 // Menyediakan endpoint untuk mendapatkan data kendaraan mobil sport
 app.get('/api/selebgram-indo', (req, res) => {
-    res.json(selebgramIndo);
+  res.json(selebgramIndo);
 });
 
 // Menentukan port untuk server
@@ -45,5 +47,5 @@ const PORT = process.env.PORT || 3000;
 
 // Mulai server
 app.listen(PORT, () => {
-    console.log(`Server berjalan di port ${PORT}`);
+  console.log(`Server berjalan di port ${PORT}`);
 });

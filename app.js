@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 // Data kendaraan mobil sport dalam bentuk array
@@ -28,6 +29,8 @@ const selebgramIndo = [
       "foto": "https://i.pinimg.com/564x/36/1d/cf/361dcf27ec2fb7c0981f5e0e04bb1ae8.jpg"
     },
 ];
+
+app.use(cors());
 
 // Menyediakan endpoint untuk mendapatkan data kendaraan mobil sport
 app.get('/api/selebgram-indo', (req, res) => {

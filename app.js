@@ -38,7 +38,7 @@ app.get('/api/selebgram-indo', (req, res) => {
 });
 
 // Menentukan port untuk server
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // Mulai server
 app.listen(PORT, () => {

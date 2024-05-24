@@ -26,7 +26,7 @@ const selebgramIndo = [
       "asal": "Jakarta",
       "instagram": "https://www.instagram.com/jennifercoppenreal20/",
       "foto": "https://i.pinimg.com/564x/36/1d/cf/361dcf27ec2fb7c0981f5e0e04bb1ae8.jpg"
-    }
+    },
 ];
 
 // Menyediakan endpoint untuk mendapatkan data kendaraan mobil sport
@@ -39,5 +39,5 @@ const PORT = process.env.PORT || 3000;
 
 // Mulai server
 app.listen(PORT, () => {
-    console.log(Server berjalan di port ${PORT});
+    console.log(`Server berjalan di port ${PORT}`);
 });

@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
-// Data kendaraan mobil sport dalam bentuk array
-const selebgramIndo = [
+const selebgramIndo = {
+  "data": [
     {
       "nama": "Nicole Parham Adelaide",
       "asal": "Jakarta",
@@ -28,7 +28,14 @@ const selebgramIndo = [
       "instagram": "https://www.instagram.com/jennifercoppenreal20/",
       "foto": "https://i.pinimg.com/564x/36/1d/cf/361dcf27ec2fb7c0981f5e0e04bb1ae8.jpg"
     },
-];
+    {
+      "nama": "Anya Geraldine",
+      "asal": "Jakarta",
+      "instagram": "https://www.instagram.com/anyageraldine/",
+      "foto": "https://i.pinimg.com/564x/48/b7/62/48b7623fc9a24837138507c4d193b8a2.jpg" 
+    }
+  ]
+};
 
 app.use(cors());
 
